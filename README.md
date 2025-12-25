@@ -1,21 +1,20 @@
-# Terminal-Based To-Do List
+# Nikopad – Modern Notepad App
 
-A simple Python terminal application to manage your daily tasks. This project allows you to **add, view, remove, and clear tasks** directly from the terminal.
+Nikopad is a simple, modern desktop notepad application built with **Python**, **Tkinter**, and **CustomTkinter**. It features a clean dark-themed UI and basic note-taking functionality.
 
 ## Features
+- Modern dark UI using CustomTkinter  
+- Write and edit notes in a resizable text area  
+- Save notes as `.txt` files  
+- Clear all text with confirmation dialog  
+- Error and success pop-up messages  
 
-- Add a task to your to-do list
-- View all tasks in the list
-- Remove a specific task by number
-- Clear all tasks
-- Exit the program
+## Technologies Used
+- Python  
+- Tkinter  
+- CustomTkinter  
 
-## How to Use
-
-1. Clone the repository or download `to-do-list.py`.
-2. Open a terminal and navigate to the folder containing `to-do-list.py`.
-3. Run the program:
-
+## Requirements
+Make sure you have Python installed, then install CustomTkinter:
 ```bash
-python to-do-list.py
-****
+pip install customtkinter
